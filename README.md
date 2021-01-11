@@ -1,4 +1,4 @@
-# phonebook
+# test-phone-book
 
 ## Project setup
 ```
@@ -9,16 +9,16 @@ npm install
 ```
 npm run serve
 ```
+Примитивное SPA приложение - Книга контактов
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Страница 1 - Список контактов
 
-### Lints and fixes files
-```
-npm run lint
-```
+Страница 2 - Контактная информация выбранного контакта
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Функционал страницы 1
+   - Добавление контакта
+   - Удаление контакта (с подтверждением)
+   - Переход на контактную информацию контакта(не реальзовано)
+
+ 
