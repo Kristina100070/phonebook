@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import {store} from './store';
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
@@ -17,7 +17,7 @@ const router = new VueRouter({
       component: MainPage
     },
     {
-      path: '/contact/:id',
+      path: '/:id',
       name: 'contact',
       component: Contact
     },
@@ -28,4 +28,5 @@ const router = new VueRouter({
 new Vue({
   render: h => h(App),
   router,
+  store,
 }).$mount('#app')
